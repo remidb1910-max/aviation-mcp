@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.remidb1910-max/easa-ftl",
+  "title": "EASA FTL Calculator",
+  "description": "Exact EASA flight time limitation answers for AI agents: max FDP, rest, cumulative limits, cited.",
+  "version": "0.1.0",
+  "websiteUrl": "https://apify.com/conradvukovic/easa-ftl",
+  "repository": {
+    "url": "https://github.com/remidb1910-max/aviation-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://conradvukovic--easa-ftl.apify.actor/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by your Apify API token (Apify Console > Settings > API & Integrations)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
