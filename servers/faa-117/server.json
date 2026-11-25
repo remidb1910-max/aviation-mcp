@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.remidb1910-max/faa-117",
+  "title": "FAA Part 117 Duty & Rest Calculator",
+  "description": "Exact FAA Part 117 answers for AI agents: max FDP, flight time, rest, cumulative limits, cited.",
+  "version": "0.1.0",
+  "websiteUrl": "https://apify.com/conradvukovic/faa-117",
+  "repository": {
+    "url": "https://github.com/remidb1910-max/aviation-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://conradvukovic--faa-117.apify.actor/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by your Apify API token (Apify Console > Settings > API & Integrations)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
