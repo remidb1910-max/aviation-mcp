@@ -8,6 +8,13 @@ Deterministic aviation rule calculators for AI agents, built by an airline pilot
 | **FAA Part 117 Duty & Rest Calculator** | Tables A, B and C, augmented crews, extensions, rest, cumulative limits, consecutive nights, split duty (14 CFR Part 117) | [Apify Store](https://apify.com/conradvukovic/faa-117) |
 | **EU261 & UK261 Flight Compensation Calculator** | Is compensation owed and how much, cancellations, denied boarding, right to care, downgrade refunds (Reg. (EC) 261/2004, UK261) | [Apify Store](https://apify.com/conradvukovic/eu261) |
 
+## Also on CalcPronto
+
+The same engines run on [CalcPronto](https://calcpronto.com/en/), next to exact calculators for loans, French payroll, income tax and notary fees, EU VAT, the Schengen 90/180 rule and business days:
+
+- **Free web calculators**, no sign-up: for example the [flight delay compensation calculator (EU261 / UK261)](https://calcpronto.com/en/flight-delay-compensation/).
+- **One connector for Claude and other AI assistants**: `https://mcp.calcpronto.com/mcp` (Google sign-in, 25 free credits, then prepaid credits). It bundles the three aviation servers above with all the other calculators.
+
 ## Connect
 
 All three are remote MCP servers (Streamable HTTP) hosted on Apify:
